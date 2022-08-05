@@ -1,11 +1,25 @@
 # LendingPoolAddressesProviderRegistry
 
-### LendingPoolAddressesProviderRegistry
+## LendingPoolAddressesProviderRegistry
 
-A register of the active [LendingPoolAddressesProvider](lendingpooladdressesprovider.md) contracts, covering all markets. This contract is immutable and the address will never change.
+A register of the active [`LendingPoolAddressesProvider`](lendingpooladdressesprovider.md) contracts, covering all markets. This contract is immutable and the address will never change.
 
 The source code can be found on [github](https://github.com/VinciProtocol/vinci-protocol/blob/master/contracts/protocol/configuration/LendingPoolAddressesProviderRegistry.sol).
 
-### View Methods
+## View Methods
 
-### &#x20;
+### getAddressesProvidersList**()**
+
+**`function getAddressesProvidersList()`**
+
+Returns the list of active [`LendingPoolAddressesProvider`](lendingpooladdressesprovider.md) contracts.
+
+### getAddressesProviderIdByAddress**()**
+
+**`function getAddressesProviderIdByAddress(address addressesProvider)`**
+
+Returns the ID of an [`LendingPoolAddressesProvider`](lendingpooladdressesprovider.md)
+
+| Parameter Name | Type    | Description                       |
+| -------------- | ------- | --------------------------------- |
+| `provider`     | address | address of the addresses provider |

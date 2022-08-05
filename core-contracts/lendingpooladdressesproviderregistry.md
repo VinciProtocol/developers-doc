@@ -8,13 +8,13 @@ The source code can be found on [github](https://github.com/VinciProtocol/vinci-
 
 ## View Methods
 
-### getAddressesProvidersList**()**
+### getAddressesProvidersLis()
 
 **`function getAddressesProvidersList()`**
 
 Returns the list of active [`LendingPoolAddressesProvider`](lendingpooladdressesprovider.md) contracts.
 
-### getAddressesProviderIdByAddress**()**
+### getAddressesProviderIdByAddres()
 
 **`function getAddressesProviderIdByAddress(address addressesProvider)`**
 

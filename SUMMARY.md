@@ -16,6 +16,12 @@
   * [IVariableDebtToken](core-contracts/debt-tokens/ivariabledebttoken.md)
 * [WETH Gateway](core-contracts/weth-gateway.md)
 
+## Deployment
+
+* [Set the environment variables](deployment/configuration/env.md)
+* [Set the market parameters](deployment/configuration/markets.md)
+* [Deploy to the blockchain](deployment/deploy-to-blockchain/README.md)
+
 ## Security
 
 * [Audits](security/audits.md)
